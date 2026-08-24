@@ -36,8 +36,14 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/copilot-pro-dev-samples/raw/main/samples/da-smart-router-multiagent/assets/pending-image.png",
-        "alt": "Smart Router orchestrator routing a request to a worker agent"
+        "url": "https://github.com/pnp/copilot-pro-dev-samples/raw/main/samples/da-smart-router-multiagent/assets/smart-router-capabilities.png",
+        "alt": "Smart Router describing the capabilities of the agent set"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://github.com/pnp/copilot-pro-dev-samples/raw/main/samples/da-smart-router-multiagent/assets/smart-router-routing.png",
+        "alt": "Smart Router routing a sales question to a worker agent"
       }
     ],
     "authors": [

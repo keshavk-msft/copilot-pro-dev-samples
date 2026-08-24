@@ -6,7 +6,15 @@ Smart Router is a multi-agent pattern for Microsoft 365 Copilot built entirely f
 
 The orchestrator connects to its workers through the `worker_agents` property in its declarative agent definition. Each of the seven agents is a self-contained Microsoft 365 Agents Toolkit project, so they can be provisioned and updated independently.
 
-![Smart Router sample](assets/pending-image.png)
+The orchestrator describing what the set of agents can do:
+
+![Smart Router capability overview](assets/smart-router-capabilities.png)
+
+Routing in action. The user asks a sales question, and the orchestrator hands it to the worker agent that owns that intent:
+
+![Smart Router routing a request to a worker agent](assets/smart-router-routing.png)
+
+> The screenshots come from the original recording of this scenario, in which the agents still carried their development names (`IOrchestrator` and `Finalchildcoforge3`). They are named **Smart Router** and **Sales FAQ** in this sample.
 
 https://github.com/user-attachments/assets/e1af6920-f25c-4065-aca0-47cc36ec7462
 
